@@ -39,7 +39,7 @@ b) quando o algarismo estiver compreendido entre 5 (cinco) e 9 (nove), acrescent
 In your code:
 
 ```javascript
-let roundTax = require('tax-round-br').round;
+let roundTax = require('tax-round-br').roundTax;
 
 let valueRounded = roundTax(100/3);
 
