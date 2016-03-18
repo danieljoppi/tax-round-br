@@ -43,7 +43,7 @@ gulp
 In your code:
 
 ```javascript
-let roundTax = require('tax-round-br').roundTax;
+let roundTax = require('tax-round-br');
 
 let valueRounded = roundTax(100/3);
 
