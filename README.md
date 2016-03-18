@@ -48,3 +48,13 @@ let roundTax = require('tax-round-br');
 let valueRounded = roundTax(100/3);
 
 ```
+
+
+[npm-url]: https://npmjs.org/package/tax-round-br
+[npm-image]: http://img.shields.io/npm/v/tax-round-br.svg
+
+[david-url]: https://david-dm.org/suiteplus/tax-round-br
+[david-image]: https://david-dm.org/suiteplus/tax-round-br.svg
+
+[david-url-dev]: https://david-dm.org/evertonamorim/tax-round-br#info=devDependencies
+[david-image-dev]: https://david-dm.org/evertonamorim/tax-round-br/dev-status.svg
