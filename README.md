@@ -21,10 +21,14 @@ b) quando o algarismo estiver compreendido entre 5 (cinco) e 9 (nove), acrescent
 ##Use
 
 ###To build
-```bash npm install -d ```
+```bash
+npm install -d
+```
 
 ###To run the tests
-```bash gulp ```
+```bash
+gulp
+```
 
 ###To use in your project
 
