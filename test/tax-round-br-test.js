@@ -76,4 +76,9 @@ describe('tax-round-br', () => {
         should(result).be.equal(10);
     });
 
+    it('sent (-4.224869999999999) - should return -4.22', function () {
+        var result = taxRound(-4.224869999999999);
+        should(result).be.equal(-4.22);
+    });
+
 });

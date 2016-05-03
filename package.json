@@ -1,6 +1,6 @@
 {
   "name": "tax-round-br",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Tax Round according Brazilian Laws",
   "main": "index.js",
   "scripts": {
