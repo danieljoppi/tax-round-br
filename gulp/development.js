@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     paths = {
         js: [
             `${appRoot}/gulp/**/*.js`,
-            `${appRoot}/src/**/*.js`
+            `${appRoot}/lib/**/*.js`
         ],
         jsTests: [`${appRoot}/test/**/*-test.js`]
     };

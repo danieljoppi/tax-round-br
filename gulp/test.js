@@ -10,7 +10,7 @@ var gulp = require('gulp'),
     appRoot = process.cwd(),
     paths = {
         js: [
-            `${appRoot}/src/**/*.js`
+            `${appRoot}/lib/**/*.js`
         ],
         jsTests: [`${appRoot}/test/**/*-test.js`]
     };

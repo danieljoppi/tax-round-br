@@ -1,6 +1,8 @@
 language: node_js
 node_js:
-  - '5.4.0'
+  - '4'
+  - '5'
+  - '6'
 
 install:
   # - npm config set registry http://23.251.144.68

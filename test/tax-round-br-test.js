@@ -1,5 +1,7 @@
-var taxRound = require('../lib/tax-round-br')
-    , should = require('should');
+'use strict';
+
+var taxRound = require('../'),
+    should = require('should');
 
 describe('tax-round-br', () => {
     it('sent 10.988 - should return 10.99', function () {
@@ -77,8 +79,12 @@ describe('tax-round-br', () => {
     });
 
     it('sent (-4.224869999999999) - should return -4.22', function () {
-        var result = taxRound(-4.224869999999999);
+        var result = taxRound(-4.225869999999999);
         should(result).be.equal(-4.22);
     });
 
+    it('sent (-4.224869999999999, true) - should return -4.23', function () {
+        var result = taxRound(-4.225869999999999, true);
+        should(result).be.equal(-4.23);
+    });
 });
